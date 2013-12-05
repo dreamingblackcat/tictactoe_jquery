@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/tictactoe.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-2 column">
+			 <button type="button" class="btn btn-success btn-sm" id="start">Start</button> 
+			 <button type="button" class="btn btn-danger btn-xs" id="reset">Reset</button>
+		</div>
+		<div class="col-md-6 column">
+			<h3>
+				Let's Play Tic Tac Toe
+			</h3>
+			<div class="app-container">
+				<div class="row clearfix">
+					<div class="col-md-4 cell" id="cell00">
+						 
+					</div>
+					<div class="col-md-4 cell" id="cell01">
+						
+					</div>
+					<div class="col-md-4 cell" id="cell02">
+						
+					</div >
+				</div>
+				<div class="row clearfix">
+					<div class="col-md-4 cell" id="cell10">
+						 
+					</div>
+					<div class="col-md-4 cell" id="cell11">
+						 
+					</div>
+					<div class="col-md-4 cell" id="cell12">
+						 
+					</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-md-4 cell" id="cell20">
+						
+					</div>
+					<div class="col-md-4 cell" id="cell21">
+						
+					</div>
+					<div class="col-md-4 cell" id="cell22">		 
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 column">
+			<div class="alert alert-warning" id="alert"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="alert alert-info" id="message"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery-1.9.0.js"></script>
+<script src="js/tictactoe.js"></script>
+</body>
+</html>
